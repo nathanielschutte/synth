@@ -1,0 +1,13 @@
+Guitar output -> filtering? -> compression? -> GPIO
+GPIO + ADC module -> stack buffer
+FFT on buffer -> frequencies
+Frequencies -> filtering -> output
+Ouput signal -> amp? -> filtering?
+
+
+
+Considerations:
+	Minimize delay picking ADC buffer size
+	FFT bucket count
+	DAC ?
+	Input signal compression and filtering, possibily separate bands?
